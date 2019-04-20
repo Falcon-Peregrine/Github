@@ -1,0 +1,68 @@
+cd to a dir using gitbash on windows
+
+
+
+git clone https://github.com/FalconPredator/project.git
+	copy the files into the sub directory of your working directory(same name as repo name)
+	also add the remote named as origin
+
+
+git init
+	initialize a dir as git repo
+	notice: if git clone, no use for git init
+
+git config --global user.email "eample@gmail.com"
+	tell git who u are
+
+
+
+git status
+	to check what is the difference between local and remote
+
+git add file
+	add the file to track (to ready to add a file to repo)
+
+git add .
+	add all stuff
+
+git commit -m "comment"
+	to commit a file
+
+git remote add origin https://github.com/FalconPredator/ETH.git
+	add the repo url as the name as origin
+
+git push origin master
+	push the master branch(local) to origin(remote)
+
+git pull origin master
+	pull the files from origin(remote) the master branch(local)
+
+git remote -v
+	after add remote, u can view the remote
+--------------------------------------------------------
+Syncing Your Github Fork:
+
+git fetch remotename
+	fetch the files down
+
+git merge remotename/master master
+	to merge the files to master(local)
+
+git push remotename master
+
+----------------------------------------------------
+git remote remove remotename
+
+
+
+
+
+如果remote repo有Readme.md，那么如果本地没有Readme.md直接git push会遭遇错误：
+解决方法：
+	1，在建立repo的时候不生成Readme.md
+	2，使用git clone命令
+
+
+SSH 需要添加public key
+
+git log
