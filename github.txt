@@ -1,31 +1,26 @@
 ﻿cd to a dir using gitbash on windows
-
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 git config --list
 	to list all the settings
 	(q to quit the list)
 git config --global user.name "username"
-git config --global user.email "email"
-switch users in windows:type manage windows credential in cmd:
-		change the email and password
-		https://www.youtube.com/watch?v=aSTTJd5JMXg
+git config --global user.email "example@gmail.com"
+	tell git who u are
 
+switch users in windows memory:type manage windows credential in cmd:
+		change the email and password
+		Youtube Tut: https://www.youtube.com/watch?v=aSTTJd5JMXg
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 git clone https://github.com/Falcon-Peregrine/project.git
 	copy the files into the sub directory of your working directory(same name as repo name)
 	also add the remote named as origin
-
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 git init
 	initialize a dir as git repo
 	notice: if git clone, no use for git init
 
-git config --global user.email "eample@gmail.com"
-	tell git who u are
-
-
-
-git status
-	to check what is the difference between local and remote
 
 git add file
 	add the file to track (to ready to add a file to repo)
@@ -50,7 +45,13 @@ git pull origin master
 
 git remote -v
 	after add remote, u can view the remote
---------------------------------------------------------
+
+git status
+	to check what is the difference between local and remote
+
+git remote remove remotename
+        remove a remote by remotename
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Syncing Your Github Fork:
 
 git fetch remotename
@@ -61,10 +62,12 @@ git merge remotename/master master
 
 git push remotename master
 
-----------------------------------------------------
-git remote remove remotename
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+git log
+	view the git log
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
 
@@ -75,8 +78,6 @@ git remote remove remotename
 
 
 SSH 需要添加public key
-
-git log
 
 
 ------------delete-----and-------remove-------file---------------
