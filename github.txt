@@ -5,6 +5,9 @@ git config --list
 	(q to quit the list)
 git config --global user.name "username"
 git config --global user.email "email"
+switch users in windows:type manage windows credential in cmd:
+		change the email and password
+		https://www.youtube.com/watch?v=aSTTJd5JMXg
 
 
 git clone https://github.com/Falcon-Peregrine/project.git
