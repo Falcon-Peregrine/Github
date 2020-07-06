@@ -1,4 +1,15 @@
-﻿cd to a dir using gitbash on windows
+ssh-keygen -t rsa -C "falcon81321@gmail.com"
+  終端機執行指令 
+pbcopy < ~/.ssh/id_rsa.pub
+  複製公鑰，終端機執行指令 
+貼到 GitHub
+  右上頭像 > Setting > SSH and GPG keys > New SSH Key，貼上公鑰
+
+
+
+
+
+cd to a dir using gitbash on windows
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 git config --list
 	to list all the settings
